@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal
+}
+
+body{
+    background-color: rgb(32, 31, 49);
+    
+}
+
+.up{
+    
+    
+    
+    width: 1000px;
+    margin: auto;
+    height: 120px;
+
+
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal
+}
+
+.ig{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    gap: 30px;
+    translate: 230px 30px;
+}
+
+.up2{
+    margin-left: 45px;
+    padding-left: 45px;   
+    background-size: cover;
+    margin-right:80px;
+    height: 500px;   
+    border-radius: 30px;
+    background-image: url(ng.png);
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+    
+   
+}
+
+.se{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(255, 186, 222);
+    border-color:rgb(255, 186, 222);
+    margin-top: 30px;
+}
+
+.ser input{ 
+        height: 50px;
+        width: 350px;
+        border-radius: 15px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        font-weight: 400;
+        color: rgb(95, 95, 95);      
+        border: 0px;
+        padding-left: 25px;
+}
+
+
+p{
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.tier{
+    padding-top: 30px;
+}
+
+.ser{
+    padding-top: 30px;
+}
+
+.pg{
+    padding-top: 30px;
+}
+
+.tier img{
+    width: 164px;
+    height: 40px;
+}
+.share{
+    margin-left: 45px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.share span p{
+    color: rgb(255, 186, 222);
+}
+
+.share .txt{
+    color: rgb(177, 177, 177);
+    font-weight: 100;
+    padding-left: 20px;
+}
